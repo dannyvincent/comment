@@ -1,0 +1,18 @@
+{
+  "name": "comment",
+  "version": "1.0.0",
+  "description": "Processes AWS SNS events and posts appropriate comments to Github",
+  "main": "./src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/*.unit.js"
+  },
+  "author": "Dan O'Donnell",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "mocha": "^3.5.0"
+  }
+}
