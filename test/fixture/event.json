@@ -1,0 +1,10 @@
+{
+    "Records": [
+        {
+            "Sns": {
+                "Subject": "post-comment",
+                "Message": "{\"account\":\"dannyvincent\",\"repo\":\"comment\",\"issueId\":\"1\",\"body\":\"Example comment from Github commenter\"}"
+            }
+        }
+    ]
+}

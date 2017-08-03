@@ -1,0 +1,35 @@
+{
+    "Records": [
+        {
+            "EventSource": "aws:sns",
+            "EventVersion": "1.0",
+            "EventSubscriptionArn": "arn:aws:sns:ap-southeast-2:XXXACCOUNTIDXXX:github-commenter:XXXUUIDXXX",
+            "Sns": {
+                "Type": "Notification",
+                "MessageId": "XXXUUIDXXX",
+                "TopicArn": "arn:aws:sns:ap-southeast-2:XXXACCOUNTIDXXX:github-commenter",
+                "Subject": null,
+                "Message": "{\n\"operation\":\"post-comment\",\n\"comment\":{\n\"account\":\"dannyvincent\",\n\"repo\":\"comment\",\n\"issueId\":\"1\",\n\"body\":\"Example comment from Github commenter lambda\"\n}\n}",
+                "Timestamp": "2017-07-11T04:11:08.754Z",
+                "SignatureVersion": "1",
+                "Signature": "XXXSIGXXX",
+                "SigningCertUrl": "https://sns.ap-southeast-2.amazonaws.com/SimpleNotificationService-XXXUUIDXXX.pem",
+                "UnsubscribeUrl": "https://sns.ap-southeast-2.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:ap-southeast-2:XXXACCOUNTIDXXX:github-commenter:XXXUUIDXXX",
+                "MessageAttributes": {
+                    "AWS.SNS.MOBILE.MPNS.Type": {
+                        "Type": "String",
+                        "Value": "token"
+                    },
+                    "AWS.SNS.MOBILE.MPNS.NotificationClass": {
+                        "Type": "String",
+                        "Value": "realtime"
+                    },
+                    "AWS.SNS.MOBILE.WNS.Type": {
+                        "Type": "String",
+                        "Value": "wns/badge"
+                    }
+                }
+            }
+        }
+    ]
+}
